@@ -6,10 +6,11 @@ Abra o propmpt de comando e navegue até o diretório onde você inseriu a pasta
 
 Em seguida o programa irá solicitar o caminho do arquivo que você deseja visualizar as informações sobre os weebhoks (D:\log\log).
 Aparecerá na tela do prompt de comando o resultado abaixo:
+
 ```
-https://eagerhaystack.com - 750#
-https://surrealostrich.com.br - 734#
-https://grimpottery.net.br - 732#
+https://eagerhaystack.com - 750
+https://surrealostrich.com.br - 734
+https://grimpottery.net.br - 732
 
 404 - 1474
 503 - 1451
