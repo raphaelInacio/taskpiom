@@ -9,12 +9,11 @@ public class Main {
 	public static void main(String[] args){
 		
 		LeitorLog log = new LeitorLog();
-		Scanner ler = new Scanner(System.in); 
-		
 		System.out.printf("Informe o caminho do arquivo:\n"); 
 		
 		// entrada de dados recebe o caminho do arquivo 
-		String caminho = ler.next();
+		@SuppressWarnings("resource")
+		String caminho = new Scanner(System.in).next();
 		
 		//Inicia o parce do arquivo, caso o retorno for true a impressão é iniciada
 		if (log.leitorLog(caminho)) {

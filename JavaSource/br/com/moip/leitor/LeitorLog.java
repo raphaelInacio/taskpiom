@@ -15,7 +15,7 @@ import br.com.moip.webhooks.WebHooksCode;
 import br.com.moip.webhooks.WebHooksURL;
 
 public class LeitorLog {
-
+ 
 	public static final String REQUEST_TO = "request_to=\"";
 	public static final String RESPONSE_HEADERS = "response_headers";
 	public static final String RESPONSE_STATUS = "response_status=\"";
@@ -25,6 +25,7 @@ public class LeitorLog {
 	
 	private List<WebHooksCode> listWebHooksCode = new ArrayList<WebHooksCode>();
 	private List<WebHooksCode> listWebHooksAuxCode = new ArrayList<WebHooksCode>();
+	private BufferedReader br;
 	
 	public void impressaoURL(int posicao){
 		int cont = 1;
@@ -81,7 +82,7 @@ public class LeitorLog {
 
 		FileInputStream stream = new FileInputStream(caminho);
 		InputStreamReader reader = new InputStreamReader(stream);
-		BufferedReader br = new BufferedReader(reader);
+		br = new BufferedReader(reader);
 		String linha;
 		Set<WebHooksURL> ocorrenciasWebHooksURL =  new HashSet<WebHooksURL>();
 		Set<WebHooksCode> ocorrenciasWebHooksCode =  new HashSet<WebHooksCode>();
