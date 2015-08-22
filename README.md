@@ -4,8 +4,7 @@ Para executar a leitura dos weebhoks são necessários dois passos, primeiro ext
 
 Abra o propmpt de comando e navegue até o diretório onde você inseriu a pasta executavel (D:\executavel) e digite o comando: java -jar webhooks.jar
 
-Em seguida o programa irá solicitar o caminho do arquivo que você deseja visualizar as informações sobre os weebhoks (D:\log\log).
-Aparecerá na tela do prompt de comando o resultado abaixo:
+Em seguida o programa irá solicitar o caminho do arquivo que você deseja visualizar as informações sobre os weebhoks (D:\log\log), informe o caminho corretamente e aparecerá na tela do prompt de comando o resultado conforme demonstrado abaixo:
 
 ```
 https://eagerhaystack.com - 750
